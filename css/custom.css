@@ -1,0 +1,62 @@
+body{
+    background-color: #313131;
+}
+
+.navbar{
+    background-color: #000000;
+}
+
+.text-primary{
+	color: #ffffff !important;
+}
+
+.container-fluid{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 40px;
+}
+
+#events{
+	border: 2px solid white;
+	border-radius: 20px;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+#events-title{
+	border-bottom: 2px solid white;
+	border-radius: 20px;
+	padding-bottom: 10px;
+}
+
+.store-item{
+	background-color: #606060;
+	border-radius: 40px;
+	height: 50%;
+	padding: 0 0 0 0;
+	margin-bottom: 30px;
+}
+
+.store-item-preview{
+	max-width:100%;
+	height:auto;
+	border-radius: 40px;
+}
+
+.store-item-title{
+	padding: 20px 0 0 40px;
+}
+
+.store-item-option{
+	border-radius: 20px;
+	background-color: #787878;
+	text-align: center;
+	width: auto;
+}
+
+.store-item-print{
+	background-color: #696969;
+	border-radius: 20px;
+	height: 50%;
+	width: 100%;
+}
