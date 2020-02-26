@@ -31,32 +31,39 @@ body{
 
 .store-item{
 	background-color: #606060;
-	border-radius: 40px;
-	height: 50%;
+	border-radius: 20px;
+	display: flex;
 	padding: 0 0 0 0;
-	margin-bottom: 30px;
+	margin-bottom: 3%;
 }
 
 .store-item-preview{
-	max-width:100%;
-	height:auto;
-	border-radius: 40px;
+	width:100%;
+	display: flex;
+	border-radius: 20px;
 }
 
 .store-item-title{
-	padding: 20px 0 0 40px;
-}
-
-.store-item-option{
-	border-radius: 20px;
-	background-color: #787878;
-	text-align: center;
+	padding: 1% 0 0 2%;
 	width: auto;
+	text-align: center;
+	margin: auto;
 }
 
 .store-item-print{
 	background-color: #696969;
-	border-radius: 20px;
-	height: 50%;
+	border-radius: 10px;
+	width: auto;
+}
+
+.store-item-print-option{
+	border-radius: 10px;
+	background-color: #787878;
+	text-align: center;
+	padding: 2% 2% 2% 2%;
+	margin: 0 0 1% 1%;
+}
+
+.store-item-width{
 	width: 100%;
 }
