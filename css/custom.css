@@ -119,6 +119,11 @@ body{
 	width: auto;
 }
 
+.card-store-image{
+	width: 50% !important;
+	height: auto !important;
+}
+
 .container-store{
 	padding-left:0;
 	padding-right:0;
@@ -141,4 +146,16 @@ body{
 
 .row-store{
 	margin-bottom: 1%;
+}
+
+.card-img-event-overview{
+	width: 30% !important;
+	margin: auto;
+	padding-bottom: 1%;
+	height: auto !important;
+}
+
+.card-img-portfolio{
+	width: 100% !important;
+	height: 100% !important;
 }
