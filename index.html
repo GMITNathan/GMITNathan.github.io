@@ -11,108 +11,137 @@
     <title>Home</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-sm navbar-dark">
+    
+	<!-- NAVIGATION BAR -->
+	<nav class="navbar sticky-top navbar-expand-sm navbar-dark">
       <video src="img/Logo 64x64.mp4" autoplay="autoplay"></video>
-    <a class="navbar-brand" href="index.html">Prism Photography</a>
+      <a class="navbar-brand" href="index.html">Prism Photography</a> 
+ 	  <!-- Small View Collapsed Nav -->
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	  <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="store.html">Store</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link" href="events.html">Events</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link" href="learn.html">Learn</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-      </ul>
-      </div>
-	</nav>
-	
-	<section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Prism Photography</h1>
-          <p class="lead text-muted">Something short and leading about the collection below—its contents, skip over it entirely.</p>
-          <p>
-            <a href="#" class="btn btn-secondary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-          </p>
-        </div>
-      </section>
-	
-	
-	<div class="container index-page">
-
-    <div class="row">
-
-      <!-- Blog Entries Column -->
-      <div class="col-md-8">
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-secondary">Read More →</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on January 1, 2017 by [Name]
-          </div>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-secondary">Read More →</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on January 1, 2017 by [Name]
-          </div>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-secondary">Read More →</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on January 1, 2017 by [Name]
-          </div>
-        </div>
-
-        <!-- Pagination -->
-        <ul class="pagination justify-content-center mb-4">
-          <li class="page-item">
-            <a class="page-link" href="#">← Older</a>
+	  <!--  -->
+	  <div class="collapse navbar-collapse" id="navbarNav"> <!-- Nav Buttons -->
+	    <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="page-item">
-            <a class="page-link" href="#">Newer →</a>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Store</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="learn.html">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
           </li>
         </ul>
+      </div> <!-- Close Nav Buttons -->
+	</nav> <!-- Close Nav -->
+	
+	<!-- BANNER TITLE AND IMAGE -->
+	<section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Portfolio</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+        <p></p>
+	    <div class="btn text-primary">
+		  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+		    <li>
+		      <a class="active btn btn-secondary my-2 text-primary" id="showall-tab" data-toggle="pill" href="#showall" role="tab" aria-controls="showall" aria-selected="true">Show All</a>
+		      <div class="divider"/>
+		    </li>
+		    <li>
+		      <a class="btn btn-secondary my-2 text-primary filter-spacing" id="Nature-tab" data-toggle="pill" href="#Nature" role="tab" aria-controls="Nature" aria-selected="false">Nature</a>
+			  <div class="divider"/>
+			</li>
+			<li>
+			  <a class="btn btn-secondary my-2 text-primary" id="City-tab" data-toggle="pill" href="#City" role="tab" aria-controls="City" aria-selected="false">City</a>
+			  <div class="divider"/>
+			</li>
+			<li>
+			  <a class="btn btn-secondary my-2 text-primary" id="Abstract-tab" data-toggle="pill" href="#Abstract" role="tab" aria-controls="Abstract" aria-selected="false">Abstract</a>
+			  <div class="divider"/>
+			</li>
+		  </ul> <!-- Close List Of Buttons -->
+		</div> <!-- Close List Overshadowing Div -->
+      </div> <!-- Close Container -->
+    </section>
+	<!-- END OF BANNER -->
+	
+	<div class="container index-page"> <!-- Open Content Container Centering Page -->
+    
+	  <div class="row"> <!-- Allows Blog Entries And Events Sidebar To Align Next To Each Other -->
+		
+		<!-- Blog Entries Column -->
+        <div class="col-md-8">
+          <!-- Blog Post -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2 class="card-title">This Week At Prism</h2>
+              <p class="card-text">News for this week at Prism, say things such as events that have happened, upcoming plans, and changes to the sites etc.</p>
+              <a href="#" class="btn btn-secondary">Read More →</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January 1, 2017 by [Name]
+            </div>
+          </div>
+		  <!-- Blog Post -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2 class="card-title">This Week At Prism</h2>
+              <p class="card-text">News for this week at Prism, say things such as events that have happened, upcoming plans, and changes to the sites etc.</p>
+              <a href="#" class="btn btn-secondary">Read More →</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January 1, 2017 by [Name]
+            </div>
+          </div>
+		  <!-- Blog Post -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2 class="card-title">This Week At Prism</h2>
+              <p class="card-text">News for this week at Prism, say things such as events that have happened, upcoming plans, and changes to the sites etc.</p>
+              <a href="#" class="btn btn-secondary">Read More →</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January 1, 2017 by [Name]
+            </div>
+          </div>
+		  <!-- Blog Post -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h2 class="card-title">This Week At Prism</h2>
+              <p class="card-text">News for this week at Prism, say things such as events that have happened, upcoming plans, and changes to the sites etc.</p>
+              <a href="#" class="btn btn-secondary">Read More →</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January 1, 2017 by [Name]
+            </div>
+          </div>
+        
 
-      </div>
+          <!-- Pagination For Switching Pages Of Blog Articles -->
+          <ul class="pagination justify-content-center mb-4">
+            <li class="page-item">
+              <a class="page-link" href="#">← Older</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">Newer →</a>
+            </li>
+          </ul>
 
-      <!-- Sidebar Widgets Column -->
-      <div class="col-md-4 text-primary">
+        </div> <!-- Blog Column Closes -->
 
-        <!-- Search Widget -->
-        <div class="col" id="events">
+        <!-- Sidebar Events Column -->
+        <div class="col-md-4 text-primary">
+          <div class="col" id="events">
 		    <h1 id="events-title">Events<h1>
 			<h3 class="events-event">Event 1</h3>
 			<p>Event 1 Details</p>
@@ -124,13 +153,10 @@
 			<p>Event 3 Details</p>
 			<br>
 		  </div>
-
-
-      </div>
-
-    </div>
-
-  </div>
+        </div>
+      
+	  </div> <!-- Close Content Row -->
+    </div> <!-- Close Content Container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -139,3 +165,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+
+<!--
+Created By Nathan, Shannon, & Eryk
+Commenting and indentation done by Nathan
+Created with the help of Bootstrap
+
+Lead code - Nathan
+Lead artifacts - Shannon
+Lead 
+
+2020 Prism Photography
+
+-->

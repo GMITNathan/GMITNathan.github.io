@@ -11,189 +11,389 @@
     <title>Home</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-sm navbar-dark">
-    <video src="img/Logo 64x64.mp4" autoplay="autoplay"></video>
-	  <a class="navbar-brand" href="index.html">Prism Photography</a>
+    
+	<!-- NAVIGATION BAR -->
+	<nav class="navbar sticky-top navbar-expand-sm navbar-dark">
+      <video src="img/Logo 64x64.mp4" autoplay="autoplay"></video>
+      <a class="navbar-brand" href="index.html">Prism Photography</a> 
+ 	  <!-- Small View Collapsed Nav -->
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	  <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="store.html">Store</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link" href="events.html">Events</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link" href="learn.html">Learn</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-      </ul>
-      </div>
-	</nav>
+	  <!--  -->
+	  <div class="collapse navbar-collapse" id="navbarNav"> <!-- Nav Buttons -->
+	    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Store</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="learn.html">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div> <!-- Close Nav Buttons -->
+	</nav> <!-- Close Nav -->
 
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Portfolio</h1>
-          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-          <p>
-            <a href="#" class="btn btn-secondary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-          </p>
-        </div>
-      </section>
+    <!-- BANNER TITLE AND IMAGE -->
+	<section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Portfolio</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+        <p></p>
+	    <div class="btn text-primary">
+		  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+		    <li>
+		      <a class="active btn btn-secondary my-2 text-primary" id="showall-tab" data-toggle="pill" href="#showall" role="tab" aria-controls="showall" aria-selected="true">Show All</a>
+		      <div class="divider"/>
+		    </li>
+		    <li>
+		      <a class="btn btn-secondary my-2 text-primary filter-spacing" id="Nature-tab" data-toggle="pill" href="#Nature" role="tab" aria-controls="Nature" aria-selected="false">Nature</a>
+			  <div class="divider"/>
+			</li>
+			<li>
+			  <a class="btn btn-secondary my-2 text-primary" id="City-tab" data-toggle="pill" href="#City" role="tab" aria-controls="City" aria-selected="false">City</a>
+			  <div class="divider"/>
+			</li>
+			<li>
+			  <a class="btn btn-secondary my-2 text-primary" id="Abstract-tab" data-toggle="pill" href="#Abstract" role="tab" aria-controls="Abstract" aria-selected="false">Abstract</a>
+			  <div class="divider"/>
+			</li>
+		  </ul> <!-- Close List Of Buttons -->
+		</div> <!-- Close List Overshadowing Div -->
+      </div> <!-- Close Container -->
+    </section>
+	<!-- END OF BANNER -->
 
-      <div class="album py-5">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
-                <div class="card-body">
-                  <p class="card-text">Daffodil<p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/IMG_4669.JPG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">Motorbikes</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/IMG_4675.JPG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">Nature and Wood</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/IMG_4674.JPG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">The Horizon</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/IMG_4673.JPG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">Empty Bench</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/IMG_4686.JPG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">Heads up</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/IMG_4676.JPG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">Waiting for light</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/IMG_4677.JPG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">GMIT</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/IMG_4692.JPG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">Lonely Cone</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="album py-5">
+      <div class="container">
+		<div class="tab-content" id="pills-tabContent">
+		  
+		  <!-- START OF SHOW ALL -->
+		  <div class="tab-pane fade show active" id="showall" role="tabpanel" aria-labelledby="showall-tab">
+			<div class="row"> <!-- Allow images to be displayed next to each other -->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+            <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  
+          </div> <!-- END ROW -->
+		  </div> <!-- END OF SHOW ALL -->
+		  
+		
+		  <!-- SHOW NATURE -->
+		  <div class="tab-pane fade" id="Nature" role="tabpanel" aria-labelledby="Nature-tab">
+			<div class="row"> <!-- Allow images to be displayed next to each other -->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+            <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  
+            </div> <!-- END ROW -->
+		  </div> <!-- END OF NATURE -->
+		
+		  <!-- SHOW CITY -->
+		  <div class="tab-pane fade" id="City" role="tabpanel" aria-labelledby="City-tab">
+			<div class="row"> <!-- Allow images to be displayed next to each other -->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+            <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  
+            </div> <!-- END ROW -->
+	      </div> <!-- END OF CITY -->
+		
+		  <!-- SHOW ABSTRACT -->
+		  <div class="tab-pane fade" id="Abstract" role="tabpanel" aria-labelledby="Abstract-tab">
+			<div class="row"> <!-- Allow images to be displayed next to each other -->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+            <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  <!-- Image Block-->
+			  <div class="col-md-4"> <!-- Specify width of images -->
+				<div class="card mb-4 box-shadow"> <!-- Add shadowing -->
+				  <!-- IMAGE DETAILS -->
+				  <img class="card-img-top card-img-portfolio" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/IMG_4668.JPG" data-holder-rendered="true">
+				  <!-- Under Image Content -->
+				  <div class="card-body">
+					<p class="card-text">Daffodil<p> <!-- Image Title -->
+					<!-- Buttons Under Image -->
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					    <button type="button" class="btn btn-sm btn-outline-secondary">Store</button>
+					  </div>
+                      <small class="text-muted">9 mins</small> <!-- Posting Time -->
+                    </div> <!-- End Buttons Under Image -->
+                  </div> <!-- End Under Image Content -->
+                </div> <!-- End Shadowing -->
+              </div> <!-- End Image Block-->
+			  
+            </div> <!-- END ROW -->
+		  </div> <!-- END OF ABSTRACT -->
+		
+		</div> 
         </div>
       </div>
 
@@ -203,5 +403,21 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
   </body>
 </html>
+
+
+
+<!--
+Created By Nathan, Shannon, & Eryk
+Commenting and indentation done by Nathan
+Created with the help of Bootstrap
+
+Lead code - Nathan
+Lead artifacts - Shannon
+Lead 
+
+2020 Prism Photography
+
+-->
