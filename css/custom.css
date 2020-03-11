@@ -64,6 +64,10 @@ body{
 	margin: 0 0 1% 1%;
 }
 
+.store-selected-title{
+	text-align: center;
+}
+
 .store-item-width{
 	width: 100%;
 }
@@ -71,7 +75,7 @@ body{
 .jumbotron{
     background-color: #3e3e3e !important;
     text-align:center;
-	text-color: white;
+	height:300px !important;
 }
 
 .jumbotron-heading{
@@ -124,6 +128,11 @@ body{
 	height: auto !important;
 }
 
+.card-store-img-cart{
+	width:100% !important;
+	height:auto !important;
+}
+
 .container-store{
 	padding-left:0;
 	padding-right:0;
@@ -158,4 +167,13 @@ body{
 .card-img-portfolio{
 	width: 100% !important;
 	height: 100% !important;
+}
+
+.shopping-cart{
+	float:right;
+	height: 100% !important;
+}
+
+.store-listings{
+	float: left;
 }
