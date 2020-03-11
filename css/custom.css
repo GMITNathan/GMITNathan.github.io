@@ -125,7 +125,7 @@ body{
 
 .card-store-image{
 	width: 50% !important;
-	height: auto !important;
+	height: 100% !important;
 }
 
 .card-store-img-cart{
@@ -177,3 +177,24 @@ body{
 .store-listings{
 	float: left;
 }
+
+.divider{
+    width:2%;
+    height:auto;
+    display:inline-block;
+}
+
+
+
+/*
+Created By Nathan, Shannon, & Eryk
+Commenting and indentation done by Nathan
+Created with the help of Bootstrap
+
+Lead code - Nathan
+Lead artifacts - Shannon
+Lead 
+
+2020 Prism Photography
+
+*/
