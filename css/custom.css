@@ -98,6 +98,11 @@ body{
 	color: #d3d3d3;
 }
 
+.card-text:hover{
+	text-decoration: none;
+	color: #ededed;
+}
+
 .btn-outline-secondary{
 	color: #888888;
 	background-color: #3e3e3e;
@@ -167,7 +172,18 @@ body{
 .card-img-portfolio{
 	width: 100% !important;
 	height: 100% !important;
+	transition: transform .2s;
+	margin: 0 auto;
 }
+
+/*Possible Development
+.card-img-portfolio:hover{
+	-ms-transform: scale(1.5); 
+	-webkit-transform: scale(1.5); 
+	transform: scale(1.5);
+}*/
+
+
 
 .shopping-cart{
 	float:right;
@@ -184,6 +200,9 @@ body{
     display:inline-block;
 }
 
+.line-break{
+	background-color: #ffffff;
+}
 
 
 /*
