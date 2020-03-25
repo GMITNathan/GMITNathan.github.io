@@ -224,7 +224,7 @@ h2{
 :active, :focus {
 	outline-style: none;
 }
-
+/*
 a:link {
 	color: #727272;
 	text-decoration: none;
@@ -240,7 +240,7 @@ a:hover {
 	margin: 0 auto;
 	padding: 0 1em;
 }
-
+*/
 #masthead {
 	margin-top: 3em;
 	padding: 2em 0 0.5em 0;
@@ -265,7 +265,7 @@ a:hover {
 	font-size: 14px;
 	padding-top: 3.5em;
 }
-
+/*
 #products ul {
 	margin: 1.5em 0;
 	padding: 0;
@@ -319,7 +319,7 @@ a:hover {
 	line-height: 4;
 	border-radius: 50%;
 }
-
+*/
 form.add-to-cart div,
 form.add-to-cart p {
 	text-align: center;
@@ -334,7 +334,7 @@ form input.qty {
 	border-radius: 3px;
 	margin-left: 0.4em;
 }
-
+/*
 .btn, a.btn {
 	display: inline-block;
 	background: #858585;
@@ -358,7 +358,7 @@ form input.qty {
 	left: 0;
 	bottom: 0;
 }
-
+*/
 body#checkout-page #site-info {
 	position: static;
 }
