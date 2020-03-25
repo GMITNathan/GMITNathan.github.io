@@ -227,18 +227,13 @@ h2{
 }
 
 a:link {
-	color: #cc8500;
+	color: #727272;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #cc1400;
+	color: #a0a0a0;
 	text-decoration: underline;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	font-size: 100%;
 }
 
 #site {
@@ -261,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 	min-height: 82px;
 	line-height: 2.3;
 	background: url(../images/logo.gif) no-repeat 0 50%;
-	color: #900;
+	color: rgb(99, 99, 99);
 	
 }
 
@@ -343,13 +338,13 @@ form input.qty {
 
 .btn, a.btn {
 	display: inline-block;
-	background: #cc1400;
+	background: #858585;
 	color: #fff;
 	font: 1em 'PT Serif', serif;
 	padding: 0.3em 1em;
 	text-align: center;
 	border-radius: 4px;
-	border: 1px solid #a00;
+	border: 1px solid rgb(102, 102, 102);
 }
 
 
@@ -358,7 +353,7 @@ form input.qty {
 	width: 100%;
 	line-height: 3;
 	text-align: center;
-	background: #cc8500;
+	background: #868686;
 	position: absolute;
 	color: #fff;
 	left: 0;
