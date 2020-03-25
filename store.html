@@ -1,18 +1,21 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--Custom CSS-->
-    <link rel="stylesheet" href="css/custom.css">
-    <title>Home</title>
-  </head>
-  <body>
-    
-	<!-- NAVIGATION BAR -->
+	<head>
+		<title>Winery</title>
+		<meta charset="utf-8" />
+		<!-- Required meta tag for Bootstrap -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="css/custom.css" media="screen" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.shop.js"></script>
+	</head>
+	<body>
+
+		<!-- NAVIGATION BAR -->
 	<nav class="navbar sticky-top navbar-expand-sm navbar-dark">
       <video src="img/Logo 64x64.mp4" autoplay="autoplay"></video>
       <a class="navbar-brand" href="index.html">Prism Photography</a> 
@@ -63,235 +66,72 @@
     </section>
 	<!-- END OF BANNER -->
 		
+		<div class="container">
+			<div id="content">
+				<div id="products">
+					<ul>
+						<li>
+							<div class="product-image">
+								<img class="card-img-top card-store-img" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="img/IMG_4677.JPG" data-holder-rendered="true">
+							</div>
+							<div class="product-description" data-name="Daffodil Mug" data-price="15">
+								<h3 class="product-name">Wine #1</h3>
+								<p class="product-price">&euro; 15</p>
+								<form class="add-to-cart" action="cart.html" method="get">
+									<div>
+										<label for="qty-1">Quantity</label>
+										<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+									</div>
+									<p><input type="submit" value="Add to cart" class="btn" /></p>
+								</form>
+							</div>
+						</li>
+						<<li>
+							<div class="product-image">
+								<img class="card-img-top card-store-img" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="img/IMG_4677.JPG" data-holder-rendered="true">
+							</div>
+							<div class="product-description" data-name="Daffodil Mug" data-price="15">
+								<h3 class="product-name">Wine #1</h3>
+								<p class="product-price">&euro; 15</p>
+								<form class="add-to-cart" action="cart.html" method="get">
+									<div>
+										<label for="qty-1">Quantity</label>
+										<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+									</div>
+									<p><input type="submit" value="Add to cart" class="btn" /></p>
+								</form>
+							</div>
+						</li>
 
-    <div class="container container-store-main"> <!-- Content container, centers page -->
-	<div class="row"> <!-- Content row -->
-	  <div class="col-md-12 store-listings"> <!-- Specifies width for listing content -->
-	    <!-- Listing Block -->
-        <div class="row row-store"> <!-- **Unused For Now** -->
-			<div class="card mb-8 box-shadow"> <!-- Add Shadowing -->
-			  <div class="container container-store"> <!-- Listing Image and Details Container -->
-			    <div class="d-flex justify-content-center"><!-- Image and Details Section -->
-                  <!-- IMAGE DETAILS -->
-				  <img class="card-img-top card-store-img" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 50%; display: block;" src="img/IMG_4677.JPG" data-holder-rendered="true">
-                  <!-- Image Information -->
-				  <div class="card-body card-store">
-				    <h3 class="card-text">GMIT</h3> <!-- Title -->
-				    <p class="card-text">a view of GMIT campus</p> <!-- Description -->
-				    <small class="text-muted">Taken By: Eryk Kowalewicz</small> <!-- Author -->
-				  </div> <!-- END Image Info -->
-                </div> <!-- End Image and Details Section -->
-              </div> <!-- End Image and Details Container -->
-			  <!-- Purchase Options Area -->
-			  <div class="card-body card-store">
-                <p class="card-text">Purchase Options<p>
-                <!-- Option Buttons -->
-				<div class="btn-group btn-store">
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Mug</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Canvas</button>
-		       	  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">T-Shirt</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Coaster</button>
-                </div> <!-- End Option Buttons -->
-              </div> <!-- End Purchase Options Area -->
-          </div> <!-- End Shadowing -->
-          </div> <!-- **Unused For Now** -->
-		  <!-- END LISTING BLOCK -->
-		  <!-- Listing Block -->
-        <div class="row row-store"> <!-- **Unused For Now** -->
-			<div class="card mb-8 box-shadow"> <!-- Add Shadowing -->
-			  <div class="container container-store"> <!-- Listing Image and Details Container -->
-			    <div class="d-flex justify-content-center"><!-- Image and Details Section -->
-                  <!-- IMAGE DETAILS -->
-				  <img class="card-img-top card-store-img" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 50%; display: block;" src="img/IMG_4677.JPG" data-holder-rendered="true">
-                  <!-- Image Information -->
-				  <div class="card-body card-store">
-				    <h3 class="card-text">GMIT</h3> <!-- Title -->
-				    <p class="card-text">a view of GMIT campus</p> <!-- Description -->
-				    <small class="text-muted">Taken By: Eryk Kowalewicz</small> <!-- Author -->
-				  </div> <!-- END Image Info -->
-                </div> <!-- End Image and Details Section -->
-              </div> <!-- End Image and Details Container -->
-			  <!-- Purchase Options Area -->
-			  <div class="card-body card-store">
-                <p class="card-text">Purchase Options<p>
-                <!-- Option Buttons -->
-				<div class="btn-group btn-store">
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Mug</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Canvas</button>
-		       	  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">T-Shirt</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Coaster</button>
-                </div> <!-- End Option Buttons -->
-              </div> <!-- End Purchase Options Area -->
-          </div> <!-- End Shadowing -->
-          </div> <!-- **Unused For Now** -->
-		  <!-- END LISTING BLOCK -->
-		  <!-- Listing Block -->
-        <div class="row row-store"> <!-- **Unused For Now** -->
-			<div class="card mb-8 box-shadow"> <!-- Add Shadowing -->
-			  <div class="container container-store"> <!-- Listing Image and Details Container -->
-			    <div class="d-flex justify-content-center"><!-- Image and Details Section -->
-                  <!-- IMAGE DETAILS -->
-				  <img class="card-img-top card-store-img" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 50%; display: block;" src="img/IMG_4677.JPG" data-holder-rendered="true">
-                  <!-- Image Information -->
-				  <div class="card-body card-store">
-				    <h3 class="card-text">GMIT</h3> <!-- Title -->
-				    <p class="card-text">a view of GMIT campus</p> <!-- Description -->
-				    <small class="text-muted">Taken By: Eryk Kowalewicz</small> <!-- Author -->
-				  </div> <!-- END Image Info -->
-                </div> <!-- End Image and Details Section -->
-              </div> <!-- End Image and Details Container -->
-			  <!-- Purchase Options Area -->
-			  <div class="card-body card-store">
-                <p class="card-text">Purchase Options<p>
-                <!-- Option Buttons -->
-				<div class="btn-group btn-store">
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Mug</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Canvas</button>
-		       	  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">T-Shirt</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Coaster</button>
-                </div> <!-- End Option Buttons -->
-              </div> <!-- End Purchase Options Area -->
-          </div> <!-- End Shadowing -->
-          </div> <!-- **Unused For Now** -->
-		  <!-- END LISTING BLOCK -->
-		  <!-- Listing Block -->
-        <div class="row row-store"> <!-- **Unused For Now** -->
-			<div class="card mb-8 box-shadow"> <!-- Add Shadowing -->
-			  <div class="container container-store"> <!-- Listing Image and Details Container -->
-			    <div class="d-flex justify-content-center"><!-- Image and Details Section -->
-                  <!-- IMAGE DETAILS -->
-				  <img class="card-img-top card-store-img" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 50%; display: block;" src="img/IMG_4677.JPG" data-holder-rendered="true">
-                  <!-- Image Information -->
-				  <div class="card-body card-store">
-				    <h3 class="card-text">GMIT</h3> <!-- Title -->
-				    <p class="card-text">a view of GMIT campus</p> <!-- Description -->
-				    <small class="text-muted">Taken By: Eryk Kowalewicz</small> <!-- Author -->
-				  </div> <!-- END Image Info -->
-                </div> <!-- End Image and Details Section -->
-              </div> <!-- End Image and Details Container -->
-			  <!-- Purchase Options Area -->
-			  <div class="card-body card-store">
-                <p class="card-text">Purchase Options<p>
-                <!-- Option Buttons -->
-				<div class="btn-group btn-store">
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Mug</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Canvas</button>
-		       	  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">T-Shirt</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-store-option">Coaster</button>
-                </div> <!-- End Option Buttons -->
-              </div> <!-- End Purchase Options Area -->
-          </div> <!-- End Shadowing -->
-          </div> <!-- **Unused For Now** -->
-		  <!-- END LISTING BLOCK -->
+						<li>
+							<div class="product-image">
+								<img class="card-img-top card-store-img" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="img/IMG_4677.JPG" data-holder-rendered="true">
+							</div>
+							<div class="product-description" data-name="Daffodil Mug" data-price="15">
+								<h3 class="product-name">Wine #1</h3>
+								<p class="product-price">&euro; 15</p>
+								<form class="add-to-cart" action="cart.html" method="get">
+									<div>
+										<label for="qty-1">Quantity</label>
+										<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+									</div>
+									<p><input type="submit" value="Add to cart" class="btn" /></p>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer id="site-info">
+				Copyright &copy; Winery
+		</footer>
 
-		</div> <!-- END LISTING CONTENT -->
-		</div> <!-- END ROW -->
-      </div> <!-- END CONTENT CONTAINER -->
-
-	      
-	<!-- Footer -->
-    <footer class="page-footer font-small unique-color-dark">
-      <div style="background-color: #a4a3ad;">
-        <div class="container">
-        <!-- Grid row-->
-          <div class="row py-4 d-flex align-items-center">
-          <!-- Grid column -->
-            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-              <h6 class="mb-0">Welcome to our website!</h6>
-            </div>
-          </div>
-        <!-- Grid row-->
-        </div>
-      </div>	  
-		  <!-- Footer Links -->
-      <div class="container text-center text-md-left mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="card-text text-uppercase font-weight-bold">Prism Photography</h6>
-            <hr class="line-break accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p class="card-text">We are a photography group based in GMIT.</p>
-          </div>
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold card-text">Who We Are</h6>
-            <hr class="line-break accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
-              <a class="card-text" href="about.html#nathan">Nathan - Founder</a>
-		    </p>
-            <p>
-              <a class="card-text" href="about.html#shannon">Shannon - Founder</a>
-	     	</p>
-            <p>
-              <a class="card-text" href="about.html#eryk">Eryk - Founder</a>
-		    </p>
-          </div>
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold card-text">Useful Links</h6>
-            <hr class="line-break accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
-              <a class="card-text" href="about.html">About</a>
-		    </p>
-            <p>
-              <a class="card-text" href="sitemap.html">Sitemap</a>
-		    </p>
-            <p>
-              <a class="card-text" href="#"></a>
-		    </p>
-          </div>
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold card-text">Contact</h6>
-            <hr class="line-break accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
-              <a class="card-text" href="https://goo.gl/maps/soA9ZBL6x9hxcrQb6">GMIT Galway Ireland</a>
-		    </p>
-            <p>
-              <a class="card-text" href="mailto:info@prismphotography.gmit.ie"> info@prismphotography.gmit.ie</a>
-		    </p>
-            <p>
-              <a class="card-text" href="tel:+353831234567"> +353 83 123 4567</a>
-		    </p>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-      </div>
-      <!-- Footer Links -->
-      <!-- Copyright -->
-      <div class=" card-text footer-copyright text-center py-3">© 2020 Copyright:
-        <p>Prism Photography</p>
-      </div>
-      <!-- Copyright -->
-    </footer>
-	<!-- Footer -->
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-</html>
-
-
-
-<!--
-Created By Nathan, Shannon, & Eryk
-Commenting and indentation done by Nathan
-Created with the help of Bootstrap
-
-Lead code - Nathan
-Lead artifacts - Shannon
-Lead 
-
-2020 Prism Photography
-
--->
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script>$(document).ready(function(){ $("h1").addClass("animated bounce"); });</script>
+	</body>
+</html>	
