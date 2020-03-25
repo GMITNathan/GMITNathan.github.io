@@ -358,7 +358,7 @@ form input.qty {
 	left: 0;
 	bottom: 0;
 }
-*/
+*/ 
 body#checkout-page #site-info {
 	position: static;
 }
