@@ -33,7 +33,7 @@ a:hover {
 
 #products li {
 	float: left;
-    max-width: 31%;
+    max-width: 33%;
 	margin: 0 1%;
 	display: block;
 }
