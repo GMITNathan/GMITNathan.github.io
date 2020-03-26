@@ -89,13 +89,8 @@ body{
     position:absolute;
     top:0;
     left:0;
-    z-index:1;
 }
 
-.jumbotron > * {
-    position:relative;
-    z-index:2;
-}
 
 .jumbotron-heading{
 	color: #d3d3d3;
