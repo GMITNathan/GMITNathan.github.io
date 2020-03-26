@@ -33,9 +33,9 @@ a:hover {
 
 #products li {
 	float: left;
-	margin: 0 1%;
-	display: block;
-    max-width: 31% !important;
+    margin: 0 0 3% 0;
+    display: block;
+    max-width: 33% !important;
 }
 
 .product-image {
