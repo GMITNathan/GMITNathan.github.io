@@ -76,7 +76,7 @@ body{
     background-color: rgba(61, 61, 61,0.5) !important;
     text-align:center;
 	height:300px !important;
-    background-image: url("img/bannerimage.jpg");
+    background-image: url("../img/bannerimage.jpg");
     background-size: cover;
 }
 
