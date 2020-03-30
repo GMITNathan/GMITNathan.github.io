@@ -3,20 +3,6 @@
 	outline-style: none;
 }
 
-a:link {
-	color: #cc8500;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #cc1400;
-	text-decoration: underline;
-}
-
-
-
-
-
 .tagline {
 	float: right;
 	color: #666;
