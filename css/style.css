@@ -229,6 +229,10 @@ body#checkout-page #site-info {
     color:rgb(180, 180, 180);
 }
 
+.checkout-submit-btn{
+    display: grid;
+}
+
 .message {
 	display: block;
 	margin: 0.5em 0;
