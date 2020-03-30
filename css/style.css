@@ -106,6 +106,7 @@ body#checkout-page #site-info {
 	border-spacing: 0;
 	width: 100%;
 	table-layout: fixed;
+    background: #474747;
 }
 
 .shopping-cart th {
@@ -125,7 +126,7 @@ body#checkout-page #site-info {
 }
 
 .shopping-cart tr:nth-child(even) {
-	background: #fafafa;
+	background: #4b4b4b;
 },
 
 .shopping-cart td.pdelete {
@@ -155,7 +156,7 @@ body#checkout-page #site-info {
 
 #pricing {
 	padding: 0.5em;
-	background: rgb(180, 180, 180);
+	background: #505050;
     display: block;
 }
 
