@@ -10,6 +10,10 @@ body{
 	color: #ffffff !important;
 }
 
+.btn{
+    color:rgb(180, 180, 180);
+}
+
 .container-fluid{
 	padding-left: 50px;
 	padding-right: 50px;
