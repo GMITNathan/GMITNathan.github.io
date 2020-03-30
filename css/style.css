@@ -59,7 +59,7 @@
 	text-align: center;
 	margin: 1em auto;
 	background: #fff;
-	color: #800;
+	color: rgb(139, 139, 139);
 	line-height: 4;
 	border-radius: 50%;
 }
@@ -77,12 +77,6 @@ form input.qty {
 	color: #000;
 	border-radius: 3px;
 	margin-left: 0.4em;
-}
-
-.btn, a.btn {
-	display: inline-block;
-	color: #fff;
-	text-align: center;
 }
 
 
@@ -120,12 +114,14 @@ body#checkout-page #site-info {
 	width: 33.3%;
 	border: 1px solid #ddd;
 	text-transform: uppercase;
+    color: rgb(180, 180, 180);
 }
 
 .shopping-cart td {
 	padding: 0.3em;
 	width: 33.3%;
 	border: 1px solid #ddd;
+    color:rgb(180, 180, 180);
 }
 
 .shopping-cart tr:nth-child(even) {
