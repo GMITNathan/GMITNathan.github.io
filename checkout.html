@@ -11,10 +11,71 @@
 
 <body id="checkout-page">
 
+<!-- NAVIGATION BAR -->
+	<nav class="navbar sticky-top navbar-expand-sm navbar-dark">
+      <video src="img/Logo 64x64.mp4" autoplay="autoplay"></video>
+      <a class="navbar-brand" href="index.html">Prism Photography</a> 
+ 	  <!-- Small View Collapsed Nav -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <!--  -->
+	  <div class="collapse navbar-collapse" id="navbarNav"> <!-- Nav Buttons -->
+	    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Store</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="learn.html">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div> <!-- Close Nav Buttons -->
+	</nav> <!-- Close Nav -->
+
+    <!-- BANNER TITLE AND IMAGE -->
+	<section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Portfolio</h1>
+        <p class="lead text-muted">Please feel free to look through our gallery. All the images you see are taken and owned by the photography group.</p>
+        <p></p>
+	    <div class="btn text-primary">
+		  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+		    <li>
+		      <a class="active btn btn-secondary my-2 text-primary" id="showall-tab" data-toggle="pill" href="#showall" role="tab" aria-controls="showall" aria-selected="true">Show All</a>
+		      <div class="divider"/>
+		    </li>
+		    <li>
+		      <a class="btn btn-secondary my-2 text-primary filter-spacing" id="Nature-tab" data-toggle="pill" href="#Nature" role="tab" aria-controls="Nature" aria-selected="false">Nature</a>
+			  <div class="divider"/>
+			</li>
+			<li>
+			  <a class="btn btn-secondary my-2 text-primary" id="City-tab" data-toggle="pill" href="#City" role="tab" aria-controls="City" aria-selected="false">City</a>
+			  <div class="divider"/>
+			</li>
+			<li>
+			  <a class="btn btn-secondary my-2 text-primary" id="Abstract-tab" data-toggle="pill" href="#Abstract" role="tab" aria-controls="Abstract" aria-selected="false">Abstract</a>
+			  <div class="divider"/>
+			</li>
+		  </ul> <!-- Close List Of Buttons -->
+		</div> <!-- Close List Overshadowing Div -->
+      </div> <!-- Close Container -->
+    </section>
+	<!-- END OF BANNER -->
+
+<div class="container">
 <div id="site">
-	<header id="masthead">
-		<h1>Winery <span class="tagline">Wines for web developers since 1999</h1>
-	</header>
 	<div id="content">
 		<h1>Checkout</h1>
 			<table id="checkout-cart" class="shopping-cart">
@@ -115,14 +176,94 @@
 		 
 		 </form>
 	</div>
-	
+
 	
 
 </div>
+</div>
 
-<footer id="site-info">
-		Copyright &copy; Winery
-	</footer>
+<!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+      <div style="background-color: #a4a3ad;">
+        <div class="container">
+        <!-- Grid row-->
+          <div class="row py-4 d-flex align-items-center">
+          <!-- Grid column -->
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+              <h6 class="mb-0">Welcome to our website!</h6>
+            </div>
+          </div>
+        <!-- Grid row-->
+        </div>
+      </div>
+		 <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="card-text text-uppercase font-weight-bold">Prism Photography</h6>
+            <hr class="line-break accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p class="card-text">We are a photography group based in GMIT.</p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold card-text">Who We Are</h6>
+            <hr class="line-break accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a class="card-text" href="about.html#nathan">Nathan - Founder</a>
+		    </p>
+            <p>
+              <a class="card-text" href="about.html#shannon">Shannon - Founder</a>
+	     	</p>
+            <p>
+              <a class="card-text" href="about.html#eryk">Eryk - Founder</a>
+		    </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold card-text">Useful Links</h6>
+            <hr class="line-break accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a class="card-text" href="about.html">About</a>
+		    </p>
+            <p>
+              <a class="card-text" href="sitemap.html">Sitemap</a>
+		    </p>
+            <p>
+              <a class="card-text" href="#"></a>
+		    </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold card-text">Contact</h6>
+            <hr class="line-break accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a class="card-text" href="https://goo.gl/maps/soA9ZBL6x9hxcrQb6">GMIT Galway Ireland</a>
+		    </p>
+            <p>
+              <a class="card-text" href="mailto:info@prismphotography.gmit.ie"> info@prismphotography.gmit.ie</a>
+		    </p>
+            <p>
+              <a class="card-text" href="tel:+353831234567"> +353 83 123 4567</a>
+		    </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+      <!-- Copyright -->
+      <div class=" card-text footer-copyright text-center py-3">© 2020 Copyright:
+        <p>Prism Photography</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+	<!-- Footer -->
 
 </body>
 </html>	
