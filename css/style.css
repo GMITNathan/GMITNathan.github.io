@@ -155,8 +155,8 @@ body#checkout-page #site-info {
 
 #pricing {
 	padding: 0.5em;
-	margin: 1em 0;
-	background: #fafafa;
+	background: rgb(180, 180, 180);
+    display: block;
 }
 
 #sub-total, #shipping {
@@ -193,8 +193,9 @@ body#checkout-page #site-info {
 
 #checkout-order-form legend {
 	padding: 0.3em;
-	background: #fafafa;
+	background: #505050;
 	font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 #checkout-order-form div {
@@ -206,6 +207,7 @@ body#checkout-page #site-info {
 	font-weight: bold;
 	margin-bottom: 0.3em;
 	text-align: left;
+    color: rgb(180, 180, 180);
 }
 
 #checkout-order-form input[type="text"] {
@@ -220,6 +222,10 @@ body#checkout-page #site-info {
 #checkout-order-form select {
 	width: 200px;
 	display: block;
+}
+
+#shipping-same{
+    color:rgb(180, 180, 180);
 }
 
 .message {
