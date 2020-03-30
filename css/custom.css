@@ -142,6 +142,11 @@ body{
 .index-page{
 	padding-top: 2%;
 }
+
+.events{
+    margin-bottom: 2%;
+}
+
 .card-store{
 	width: auto;
 }
